@@ -11,36 +11,18 @@
     <link rel="stylesheet" href="css/styles.css">
     <title>Document</title>
 </head>
-<body style="padding: 3rem;">
-
-    <div class="card testimonial">
-        <div class="grid grid--1x2">
-            <div class="testimonial__image">
-                <img src="/src/images/testimonial.jpg" alt="A happy smiling customer">
-                <span class="icon-container icon-container--accent">
-                    <svg class="icon icon--white icon--small">
-                        <use xlink:href="src/icons/sprite.svg#quotes"></use>
-                    </svg>
-                </span>
-            </div>
-            <blockquote class="quote">
-                <p class="quote__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores sit adipisci assumenda, voluptatum velit accusamus? Tempora voluptatem veniam obcaecati facilis!</p>
-                <footer >
-                    <div class="media">
-                        <div class="media__image">
-                            <svg class="icon icon--primary quote__line">
-                                <use xlink:href="src/icons/sprite.svg#line"></use>
-                            </svg>
-                        </div>
-                        <div class="media__body">
-                            <h3 class="media__title quote__author">John Smith</h3>
-                            <p class="quote__organization">Atlas Development</p>
-                        </div>
-                    </div>
-                </footer>
-            </blockquote>
+<body>
+    <div class="collapsible collapsible--expanded">
+        <header class="collapsible__header">
+            <h2 class="collapsible__heading">Item 1</h2>
+            <svg class="icon icon--primary collapsible__chevron">
+                <use xlink:href="src/icons/sprite.svg#chevron"></use>
+            </svg>
+        </header>
+        <div class="collapsible__content">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, consectetur?
         </div>
     </div>
-
+    <script src="/js/main.js"></script>
 </body>
 </html>
