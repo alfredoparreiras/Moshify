@@ -3,8 +3,7 @@
 
 
 # Moshify
-TaskTrace is a task management tool that simplifies tracking tasks for both individuals. It provides an easy overview of each task's progress from start to end, improving efficiency
-
+Moshify is study case for a WebApplication course focused on cloud hosting services. Aimed at providing an efficient and user-friendly experience, their service offers various hosting plans starting from $9 per month. Key features include unlimited websites and bandwidth, SSD storage, and tailored options for RAM. The platform is optimized for WordPress, with a focus on speed and convenience. 
 
 ## Demo
 
